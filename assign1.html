@@ -1,0 +1,92 @@
+
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Combinator Selector Practice</title>
+<style>
+/* Add your CSS rules here */
+/*task 1*/
+nav ul {
+    background-color:rgb(140, 255, 0) ;
+
+}/*task 2*/
+section h2 + p {
+color: rgb(226, 43, 156);
+}
+/*task 3*/
+.paragraphs :first-child {
+border:5px salmon;
+}
+/* task 4*/
+.links a{
+    font-weight: bold;
+}
+/*task 5*/
+.paragraphs p:nth-child(3){
+    font-size: 30px;
+}
+/*task 6*/
+nav ul li {
+    margin-bottom: 5px;
+}
+/*task 7*/
+.links a:nth-child(1){
+    color: crimson;
+}
+/*task 8*/
+.links a:nth-child(2){
+    text-decoration: underline;
+}
+/*task 9*/
+section{
+    padding: 25pt;
+}
+/*task 10*/
+footer{
+    border: 2px solid green;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Welcome to the Combinator Selector Practice</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+<main>
+<section>
+<h2>About Us</h2>
+<p>We are a web development company...</p>
+</section>
+<section>
+    <h2>Our Services</h2>
+    <ul>
+    <li>Web Design</li>
+    <li>Front-end Development</li>
+    <li>Back-end Development</li>
+    </ul>
+</section>
+</main>
+<div id="additional-info">
+<div class="paragraphs">
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+<p>Paragraph 3</p>
+</div>
+<div class="links">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    </div>
+</div>
+<footer>
+<p>&copy; 2023 Combinator Selector Practice</p>
+</footer>
+</body>
+</html>
